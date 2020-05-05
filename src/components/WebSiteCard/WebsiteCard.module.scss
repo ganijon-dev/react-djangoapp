@@ -1,0 +1,90 @@
+@import '../commonFiles/variables.scss';
+.card {
+    height: 235px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    &:hover {
+        transition: all .2s ease-out;
+        box-shadow: 0 2px 5px 3px rgba(38, 38, 38, .2);
+    }
+}
+
+.aside-bar {
+    width: 10px;
+    height: 100%;
+    display: inline-block;
+    background-color: #00a9dc;
+}
+
+.card__url {
+    font-weight: 600;
+    margin-left: 30px;
+    color: #00a9dc;
+}
+
+.settings {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    list-style-position: inside;
+    background: #fafafa;
+    border-top: 2px solid #f5f5f5;
+    border-bottom: 2px solid #f5f5f5;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: auto;
+    li {
+        color: grey;
+        padding-top: 5px;
+    }
+}
+
+.card-content {
+    width: calc(100% - 10px);
+    padding: 10px;
+}
+
+.site-status {
+    display: flex;
+    padding: 5px 10px;
+}
+
+.site-status__title {
+    color: $main-color;
+    font-size: 12px;
+}
+
+.site-status__info {
+    color: $main-color;
+    font-size: 12px;
+}
+
+.site-status__installed {
+    color: $main-color;
+}
+
+.site-status__not-installed {
+    color: #c13832;
+}
+
+.site-status__divider {
+    margin: 8px 20px;
+    padding: 0;
+    color: grey;
+}
+
+.card-footer {
+    display: flex;
+    font-size: 12px;
+    padding: 0 10px;
+    cursor: default;
+    &>p {
+        margin-right: 20px;
+        & span {
+            margin-left: 8px;
+            color: $main-color;
+        }
+    }
+}

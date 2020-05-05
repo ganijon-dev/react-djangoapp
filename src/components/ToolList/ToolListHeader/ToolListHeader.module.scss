@@ -1,0 +1,49 @@
+@import '../../commonFiles/variables.scss';
+.header-btn {
+    background: none;
+    border: none;
+    color: $main-color;
+    font-style: italic;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    outline: 0;
+    padding: 0;
+    &:nth-child(1) {
+        justify-content: flex-start;
+    }
+    &:last-child {
+        justify-content: flex-end;
+    }
+    &:hover {
+        .sort-icon {
+            opacity: 1;
+        }
+    }
+}
+
+.sort-icon {
+    width: 18px;
+    height: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4px;
+    fill: #ddd;
+    opacity: 0;
+    transition: opacity .1s ease-in;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.sort-icon__status {
+    opacity: 0;
+}
+
+.sort-icon__active {
+    fill: $main-color;
+}
+
+.show {
+    opacity: 1 !important;
+}

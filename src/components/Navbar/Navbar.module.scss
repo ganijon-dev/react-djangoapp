@@ -1,0 +1,67 @@
+@import '../commonFiles/variables.scss';
+.nav-wrapper {
+    width: 100%;
+    box-shadow: 0px 1px 10px #999;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0px auto;
+}
+
+.brand-logo {
+    display: inline-flex;
+}
+
+.right {
+    display: inline-flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav-item {
+        //margin-right: 15px;
+        height: 100%;
+        display: flex;
+        font-size: 18px;
+        margin-right: 20px;
+        justify-content: center;
+        align-items: center;
+        @media(max-width: 600px) {
+            font-size: 12px;
+        }
+        a {
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: 0.2s ease-in;
+            text-decoration: none;
+            .nav-item__icon {
+                margin-right: 10px;
+            }
+            span {
+                color: rgb(38, 38, 38);
+            }
+        }
+        a:hover {
+            background-color: $main-color;
+            .nav-item__icon,
+            span {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.active-btn {
+    color: #fff;
+    background-color: $main-color;
+    span {
+        color: #fff !important;
+    }
+}

@@ -1,0 +1,25 @@
+.no-result {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    grid-column: span 3;
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.no-result-text {
+    padding: 20px;
+    text-align: center;
+    color: #dedede;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    font-size: 22px;
+    @media (max-width: 400px) {
+        font-size: 16px;
+    }
+}
