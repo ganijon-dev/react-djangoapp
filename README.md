@@ -19,7 +19,7 @@ In the project directory, you should run:
 After that 
 ### `npm install package.json`
 
-after go to src folder of project directory, you should run:
+after go to `src` folder of project directory, you should run:
 
 ### `npm run build`
 
