@@ -10,8 +10,8 @@
 
 ## Steps to Run 
 
-1) You will need Python installed in your machine (download link)[https://www.python.org/downloads/]
-2) Node.js installed in your machine (download link)[https://nodejs.org/en/]
+1) You will need Python installed in your machine [download link](https://www.python.org/downloads/)
+2) Node.js installed in your machine [download link](https://nodejs.org/en/)
 
 In the project directory, you should run:
 
