@@ -4,8 +4,8 @@
 
 ## Requirements
 
-1. Python over 3.7 
-2. Node.js
+1. `Python over 3.7 `
+2. `Node.js`
 
 
 ## Steps to Run 
