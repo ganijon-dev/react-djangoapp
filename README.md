@@ -29,6 +29,6 @@ and lastly back to project directory, run :
 
 Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to view it in the browser.
 
-Website will run automatically in port 8000
+Website will run automatically in port `8000`
 
 
